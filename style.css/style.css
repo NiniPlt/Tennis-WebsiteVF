@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+    transition: color 0.3s ease;
+    font-weight: 600;
+    font-size: 16px;
+}
+a:hover {
+  color: brown;
+}
